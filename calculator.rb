@@ -32,5 +32,20 @@ puts "4 pressed"
 @action_equals = driver.find_element(:id, 'eq').click
 puts "EQUALS button pressed....SUM action completed!!"
 
+@button_clear = driver.find_element(:id, 'clr').click
+puts "CLEARED EDIT FIELD"
+
+@button_eight = driver.find_element(:name, '8').click
+puts "8 pressed"
+
+@action_minus = driver.find_element(:id, 'op_sub').click
+puts "SUBTRACT button pressed"
+
+@button_five = driver.find_element(:name, '5').click
+puts "5 pressed"
+ 
+@action_equals = driver.find_element(:id, 'eq').click
+puts "EQUALS button pressed....DIFF action completed!!"
+
 driver.quit
 puts "TEST SUCCEEDED!!"
