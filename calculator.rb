@@ -48,4 +48,4 @@ puts "5 pressed"
 puts "EQUALS button pressed....DIFF action completed!!"
 
 driver.quit
-puts "TEST SUCCEEDED!! HOORAY"
+puts "TEST SUCCEEDED!! HOORAYAAAA"
