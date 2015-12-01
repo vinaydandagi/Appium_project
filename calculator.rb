@@ -23,6 +23,7 @@ Appium.promote_appium_methods Object
 @button_two = driver.find_element(:name, '2').click
 puts "2 pressed"
 
+button_two.click
 @action_plus = driver.find_element(:id, 'op_add').click
 puts "ADD button pressed"
 
